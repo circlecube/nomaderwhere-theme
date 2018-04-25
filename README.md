@@ -1,2 +1,2 @@
 # nomaderwhere-theme
-Theme for nomaderwhere website.
+Theme for nomaderwhere.com
