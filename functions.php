@@ -11,4 +11,7 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+set_theme_mod( 'page_layout', 'one-column' );
+
 ?>
