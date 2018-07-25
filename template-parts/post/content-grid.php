@@ -28,8 +28,7 @@
 	<?php if ( '' !== get_the_post_thumbnail() ) : ?>
 		<div class="post-thumbnail">
 			<a href="<?php the_permalink(); ?>">
-				<?php //the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>
-				<img src="http://fpoimg.com/200x200" >
+				<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>
 			</a>
 		</div><!-- .post-thumbnail -->
 	<?php endif; ?>

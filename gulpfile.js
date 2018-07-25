@@ -323,7 +323,7 @@ gulp.task( 'browser-sync', function() {
   *
   * Watches for file changes and runs specific tasks.
   */
- gulp.task( 'default', ['styles', 'customJS', 'browser-sync'], function () {
+ gulp.task( 'default', ['styles', 'customJS'], function () {
   gulp.watch( projectPHPWatchFiles, reload ); // Reload on PHP file changes.
   gulp.watch( styleWatchFiles, [ 'styles' ] ); // Reload on SCSS file changes.
   gulp.watch( customJSWatchFiles, [ 'customJS', reload ] ); // Reload on customJS file changes.
