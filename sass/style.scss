@@ -5,7 +5,7 @@
  Author:           Evan Mullins
  Author URI:       https://circlecube.com
  Template:         twentyseventeen
- Version:          1.0.2
+ Version:          1.1.0
  License:          GNU General Public License v2 or later
  License URI:      http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:      nomaderwhere
@@ -23,5 +23,27 @@
 		width: 100%;
 		height: 500px;
 		object-position: center center;
+	}
+}
+
+.site-main.home > article.page > header.entry-header {
+	display: none;
+}
+
+.site-main.home .latest-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	article {
+		width: 30%;
+
+		.entry-header {
+			margin-bottom: 0;
+
+			.entry-title {
+				font-size: 1.25rem;
+			}
+		}
 	}
 }

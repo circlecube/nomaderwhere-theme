@@ -5,13 +5,13 @@
  Author:           Evan Mullins
  Author URI:       https://circlecube.com
  Template:         twentyseventeen
- Version:          1.0.3
+ Version:          1.1.0
  License:          GNU General Public License v2 or later
  License URI:      http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:      nomaderwhere
  GitHub Theme URI: https://github.com/circlecube/nomaderwhere-theme
-*/.single-featured-image-header{width:100%;max-height:500px;position:relative}.single-featured-image-header img{-o-object-fit:cover;object-fit:cover;width:100%;height:500px;-o-object-position:center center;object-position:center center}
+*/.single-featured-image-header{width:100%;max-height:500px;position:relative}.single-featured-image-header img{-o-object-fit:cover;object-fit:cover;width:100%;height:500px;-o-object-position:center center;object-position:center center}.site-main.home>article.page>header.entry-header{display:none}.site-main.home .latest-grid{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.site-main.home .latest-grid article{width:30%}.site-main.home .latest-grid article .entry-header{margin-bottom:0}.site-main.home .latest-grid article .entry-header .entry-title{font-size:1.25rem}
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7O0VBWUUsQUFHRixBQUFBLDZCQUE2QixBQUFDLENBQzdCLEtBQUssQ0FBRSxJQUFLLENBQ1osVUFBVSxDQUFFLEtBQU0sQ0FDbEIsUUFBUSxDQUFFLFFBQVMsQ0FRbkIsQUFYRCxBQUtDLDZCQUw0QixDQUs1QixHQUFHLEFBQUMsQ0FDSCxVQUFVLENBQUUsS0FBTSxDQUNsQixLQUFLLENBQUUsSUFBSyxDQUNaLE1BQU0sQ0FBRSxLQUFNLENBQ2QsZUFBZSxDQUFFLGFBQWMsQ0FDL0IiLCJuYW1lcyI6W119 */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlcyI6WyJzdHlsZS5zY3NzIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7O0VBWUUsQUFHRixBQUFBLDZCQUE2QixBQUFDLENBQzdCLEtBQUssQ0FBRSxJQUFLLENBQ1osVUFBVSxDQUFFLEtBQU0sQ0FDbEIsUUFBUSxDQUFFLFFBQVMsQ0FRbkIsQUFYRCxBQUtDLDZCQUw0QixDQUs1QixHQUFHLEFBQUMsQ0FDSCxVQUFVLENBQUUsS0FBTSxDQUNsQixLQUFLLENBQUUsSUFBSyxDQUNaLE1BQU0sQ0FBRSxLQUFNLENBQ2QsZUFBZSxDQUFFLGFBQWMsQ0FDL0IsQUFHRixBQUF1QyxVQUE3QixBQUFBLEtBQUssQ0FBRyxPQUFPLEFBQUEsS0FBSyxDQUFHLE1BQU0sQUFBQSxhQUFhLEFBQUMsQ0FDcEQsT0FBTyxDQUFFLElBQUssQ0FDZCxBQUVELEFBQWdCLFVBQU4sQUFBQSxLQUFLLENBQUMsWUFBWSxBQUFDLENBQzVCLE9BQU8sQ0FBRSxJQUFLLENBQ2QsU0FBUyxDQUFFLElBQUssQ0FDaEIsZUFBZSxDQUFFLGFBQWMsQ0FhL0IsQUFoQkQsQUFLQyxVQUxTLEFBQUEsS0FBSyxDQUFDLFlBQVksQ0FLM0IsT0FBTyxBQUFDLENBQ1AsS0FBSyxDQUFFLEdBQUksQ0FTWCxBQWZGLEFBUUUsVUFSUSxBQUFBLEtBQUssQ0FBQyxZQUFZLENBSzNCLE9BQU8sQ0FHTixhQUFhLEFBQUMsQ0FDYixhQUFhLENBQUUsQ0FBRSxDQUtqQixBQWRILEFBV0csVUFYTyxBQUFBLEtBQUssQ0FBQyxZQUFZLENBSzNCLE9BQU8sQ0FHTixhQUFhLENBR1osWUFBWSxBQUFDLENBQ1osU0FBUyxDQUFFLE9BQVEsQ0FDbkIiLCJuYW1lcyI6W119 */
 
 /*# sourceMappingURL=style.css.map */
