@@ -32,7 +32,8 @@ get_header(); ?>
 				// WP_Query arguments
 				$args = array(
 					'posts_per_page' => '23',
-					'post-type'	     => 'post'
+					'post-type'	     => 'post',
+					'category_name'  => 'blog',
 				);
 
 				// The Query
