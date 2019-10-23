@@ -5,7 +5,7 @@
  Author:           Evan Mullins
  Author URI:       https://circlecube.com
  Template:         twentyseventeen
- Version:          1.1.8
+ Version:          1.2.0
  License:          GNU General Public License v2 or later
  License URI:      http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:      nomaderwhere
@@ -39,19 +39,27 @@ body, button, input, select, textarea {
 	display: none;
 }
 
-#primary #main.site-main.home .latest-grid {
+.latest-grid-date {
+	margin: 3rem 0 1.5rem;
+}
+.blog .latest-grid header {
+	display: none;
+}
+
+#primary #main.site-main .latest-grid {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	
-	h2 {
-		width: 100%;
-		margin: 4rem 0 2rem;
-	}
+	justify-content: flex-start;
+
 	article {
 		width: 30%;
 		display: flex;
 		flex-direction: column;
+		margin-right: 5%;
+
+		&:nth-child(3n) {
+			margin-right: 0;
+		}
 
 		.entry-header {
 			margin-bottom: 0;
@@ -61,12 +69,12 @@ body, button, input, select, textarea {
 		.post-thumbnail {
 			margin: 0;
 		}
-		
+
 		.entry-footer {
 			border-top: 0;
 			margin: 0 0 1rem;
 			padding: 0;
-			
+
 			.entry-title {
 				font-size: 1.25rem;
 			}
@@ -83,9 +91,9 @@ body, button, input, select, textarea {
 .site-footer .widget-area a,
 .posts-navigation a,
 .widget_authors a strong {
-	// padding: 0 1px;	
+	// padding: 0 1px;
 }
-.entry-content a:focus, 
+.entry-content a:focus,
 .entry-content a:hover,
 .entry-summary a:focus,
 .entry-summary a:hover,
