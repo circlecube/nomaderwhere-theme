@@ -5,7 +5,7 @@
  Author:           Evan Mullins
  Author URI:       https://circlecube.com
  Template:         twentyseventeen
- Version:          1.2.1
+ Version:          1.2.2
  License:          GNU General Public License v2 or later
  License URI:      http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:      nomaderwhere
@@ -25,3 +25,5 @@ body,button,input,select,textarea{line-height:1.75}
 #primary #main.site-main .latest-grid article .entry-footer{border-top:0;margin:0 0 1rem;padding:0}
 #primary #main.site-main .latest-grid article .entry-footer .entry-title{font-size:1.25rem}
 .entry-content a:focus,.entry-content a:hover,.entry-summary a:focus,.entry-summary a:hover,.comment-content a:focus,.comment-content a:hover,.widget a:focus,.widget a:hover,.site-footer .widget-area a:focus,.site-footer .widget-area a:hover,.posts-navigation a:focus,.posts-navigation a:hover,.comment-metadata a:focus,.comment-metadata a:hover,.comment-metadata a.comment-edit-link:focus,.comment-metadata a.comment-edit-link:hover,.comment-reply-link:focus,.comment-reply-link:hover,.widget_authors a:focus strong,.widget_authors a:hover strong,.entry-title a:focus,.entry-title a:hover,.entry-meta a:focus,.entry-meta a:hover,.page-links a:focus .page-number,.page-links a:hover .page-number,.entry-footer a:focus,.entry-footer a:hover,.entry-footer .cat-links a:focus,.entry-footer .cat-links a:hover,.entry-footer .tags-links a:focus,.entry-footer .tags-links a:hover,.post-navigation a:focus,.post-navigation a:hover,.pagination a:not(.prev):not(.next):focus,.pagination a:not(.prev):not(.next):hover,.comments-pagination a:not(.prev):not(.next):focus,.comments-pagination a:not(.prev):not(.next):hover,.logged-in-as a:focus,.logged-in-as a:hover,a:focus .nav-title,a:hover .nav-title,.edit-link a:focus,.edit-link a:hover,.site-info a:focus,.site-info a:hover,.widget .widget-title a:focus,.widget .widget-title a:hover,.widget ul li a:focus,.widget ul li a:hover{-webkit-box-shadow:inset 0 -1.2rem 0 rgba(153,204,51,0.5),0 3px 0 #000;box-shadow:inset 0 -1.2rem 0 rgba(153,204,51,0.5),0 3px 0 #000}
+.alignleft{margin-right:1.5rem !important}
+.alignright{margin-left:1.5rem !important}
