@@ -5,7 +5,7 @@
  Author:           Evan Mullins
  Author URI:       https://circlecube.com
  Template:         twentyseventeen
- Version:          1.2.3
+ Version:          1.2.5
  License:          GNU General Public License v2 or later
  License URI:      http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:      nomaderwhere
@@ -52,28 +52,42 @@ body, button, input, select, textarea {
 	justify-content: flex-start;
 
 	article {
-		width: 30%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
-		margin-right: 5%;
 
-		&:nth-child(3n) {
-			margin-right: 0;
+		@media (min-width: 768px) {
+			width: 30%;
+			margin-right: 5%;
+
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
 		}
 
 		.entry-header {
 			margin-bottom: 0;
-
 		}
 
 		.post-thumbnail {
 			margin: 0;
 
-			img {
-				height: 160px;
-				object-fit: cover;
-				object-position: center center;
+			a {
+				display: block;
+				position:relative;
+				padding-top: 100%;
 				width: 100%;
+				height: 0;
+
+				img {
+					height: 100%;
+					object-fit: cover;
+					object-position: center center;
+					width: 100%;
+					position: absolute;
+					top:0;
+					left:0;
+				}
 			}
 		}
 
