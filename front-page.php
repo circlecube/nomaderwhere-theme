@@ -28,12 +28,11 @@ get_header(); ?>
 
 			<div class="latest-grid">
 			<?php
-				//loop and get latest posts - display as a grid of thumbnials with hover state	
+				//loop and get latest posts - display as a grid of thumbnials with hover state
 				// WP_Query arguments
 				$args = array(
-					'posts_per_page' => '23',
+					'posts_per_page' => '11',
 					'post-type'	     => 'post',
-					'category_name'  => 'blog',
 				);
 
 				// The Query
@@ -53,8 +52,14 @@ get_header(); ?>
 				// Restore original Post Data
 				wp_reset_postdata();
 			?>
-				<article>
-					<div class="entry-header"><h3 class="entry-title"><a href="/blog/">Read more</a></h3></div>
+				<article class="grid-item">
+					<a href="/blog/" class="grid-item-link">
+						<footer class="entry-footer">
+							<h3 class="entry-title">
+								Read more >
+							</h3>
+						</footer>
+					</a>
 				</article>
 			</div>
 
